@@ -35,8 +35,6 @@ INSTALLED_APPS = [
     'course',
     'post',
     'tinymce',
-    'sorl.thumbnail',
-    'mce_filebrowser',
     'crispy_forms',
     'hitcount',
     #'django.contrib.sites',
@@ -66,8 +64,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
 ]
-
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
 
 
 

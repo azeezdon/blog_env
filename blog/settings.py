@@ -70,6 +70,10 @@ MIDDLEWARE = [
 
 ]
 
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+
+
+
 ROOT_URLCONF = 'blog.urls'
 
 TEMPLATES = [

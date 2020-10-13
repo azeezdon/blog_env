@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sitemaps',
     'mptt',
-
 ]
 COMMENTS_APP = 'comments'
 SITE_ID = 1

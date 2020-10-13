@@ -157,7 +157,7 @@ STATIC_URL = 'app/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'app/static'),
+    os.path.join(PROJECT_ROOT, 'static'),
 )
 
 # Extra places for collectstatic to find static files.

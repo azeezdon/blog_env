@@ -67,6 +67,7 @@ MIDDLEWARE = [
 
 ]
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 
 ROOT_URLCONF = 'blog.urls'
